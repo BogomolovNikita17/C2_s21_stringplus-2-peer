@@ -1,0 +1,5 @@
+Untagged: ereva/valgrind/string:latest
+Deleted: sha256:5d42a1ec76726cc4a91872ce48c5dcc559c51b09402d52c4c4ea5c593f9bb4b3
+gcc -Wall -Werror -Wextra -std=c11 -pedantic -g -c s21_*.c
+ar rc s21_string.a s21_*.o
+ranlib s21_string.a
